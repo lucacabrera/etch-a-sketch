@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0; 
+    height: 100vh; 
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px; 
+    height: 500px; 
+    border: 2px solid black;
+}
+
+.content {
+    flex: 1 0 6.25%; 
+    height: 6.25%; 
+    border: 1px solid black;
+    box-sizing: border-box; 
+}
+
+.content:hover {
+    background-color: black;
+}
